@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Twitter - Defer long tweets
+@namespace      diyachan-deferLongTweets
+@version        1.0.0
+@description    Defers literal essay tweets on twitter
+@author         diya
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+article[data-testid="tweet"]:has([data-testid="tweet-text-show-more-link"]){
+    height: 300px;
+    mask-image: linear-gradient(
+        to top,
+        transparent,
+        hsla(0 0% 0% / .1) 100px
+    );
+}
+}

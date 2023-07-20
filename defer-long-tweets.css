@@ -1,1 +1,0 @@
-article[data-testid="tweet"]:has([data-testid="tweet-text-show-more-link"]){    height: 300px;    mask-image: linear-gradient(        to top,        transparent,        hsla(0 0% 0% / .1) 100px    );}
