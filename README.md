@@ -1,5 +1,5 @@
 # twitter-snippets
-UserCSS snippets that I personally use
+UserCSS snippets that I personally use. Snippets require [Stylus addon](https://add0n.com/stylus.html) to work. Unfortunately very untested on mobile.
 
 Currently it only offers one thing:
 ## Defer long tweets
